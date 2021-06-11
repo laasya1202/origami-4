@@ -1,0 +1,71 @@
+h1{
+    color:rgb(126, 66, 172);
+    border: 10px solid dimgray;
+    background-color: white;
+}
+body{
+    margin: 0px;
+    background-color: rgb(170, 219, 230);
+}
+img{
+    border: 5px solid black;
+    border-radius: 40px;
+    position: relative;
+
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: italic;
+    position:absolute;
+text-decoration: none;
+}
+ol,ul{
+    font-family: comic sans ms;
+}
+.header {
+    background-color: azure;
+    justify-content: space-between;
+
+}
+
+.Origami {
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(170, 219, 230);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 310px;
+    
+}
+
+.grid {
+display: flex;
+flex-wrap: wrap;
+}
+
+.grid img  {
+    border: 2px black;
+    border-radius: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
